@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML FORM</title>
+    <style>
+        div{
+            padding: 10px;
+        }
+        h3{
+            font-style:italic;
+        }
+h2{
+    font-style: italic;
+}
+textarea{
+    padding: 10px;
+}
+form{
+    background-color: darkslategray;
+}
+div{
+    
+    height: 80;
+    width: 50;
+}
+    </style>
+</head>
+<body>
+    <form action="./submit.html">
+        <h2>Registration form</h2>
+        <br/>
+        <p>Inter your details below</p>
+        <ul>
+            <div>
+                <label for="input-text1"></label>
+                <li><input type="email" placeholder="demo@gmail.com"></li>
+            </div>
+            <div>
+                <label for="input-text2"></label>
+                <li><input type="password" placeholder="passward"></li>
+            </div>
+            <br/>
+            <div>
+                <label for="input-text3"></label>
+                <li><input type="number" placeholder="+91 phone number"></li>
+            </div>
+            
+        </ul>
+<hr/>
+<h3>Inter your profession</h3>
+<ul>
+    <li>
+        <input type="radio" name="profession">Student
+        <input type="radio" name="profession">Developer
+        <input type="radio" name="profession">Teacher
+    </li>
+</ul>
+Choose the stage if you are(Student)
+<select name="qualification">
+    <option value=""></option>
+    <option value="10th">10th</option>
+    <option value="12th">12th</option>
+    <option value="Graduate">Graduate</option>
+    <option value="Post graduate">Post Graduate</option>
+</select>
+<hr/>
+<ul>
+    <li>
+        Enter your birth date.
+        <input type="date">
+    </li>
+</ul>
+<hr/>
+<ul>
+    <li>
+        <textarea rows="1" cols="23" placeholder="Any notes"></textarea>
+    </li>
+</ul>
+<hr/>
+<input type="submit" value="submit">
+<input type="reset" value="reset">
+
+    </form>
+    
+</body>
+</html>
